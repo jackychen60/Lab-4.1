@@ -33,7 +33,7 @@ public boolean equals(Card otherCard)
 }
 public String toString()
 {
-	return(rank + "of" + suit + "with value" + pointValue);
+	return(this.rank + "of" + this.suit + "with value" + this.pointValue);
 }
 
 }
